@@ -37,7 +37,6 @@
     display: inline;
     color: var(--umi-orange);
     font-weight: bold;
-    font-size: var(--nav-size);
     text-decoration: none;
     transition: 0.3s;
     text-transform: uppercase;
@@ -83,4 +82,13 @@
 
 .language-dropdown-trigger:hover .language-dropdown{
     display: block;
+}
+
+@media (max-width: 600px) {
+    .nav-links li {
+        font-size: 1rem;
+    }
+    .nav-links li a {
+        font-size: 1rem;
+    }
 }

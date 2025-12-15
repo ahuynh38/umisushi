@@ -20,3 +20,21 @@
     width: 100%;
     align-items: flex-start;
 }
+
+@media (max-width: 600px) {
+    .offer-cards-grid .offer-card {
+        width: 80%;
+    }
+    .offer-cards-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-container {
+        align-items: center;
+        justify-content: center;
+    }
+    .about-content {
+        align-items: center;
+        justify-content: center;
+    }
+}
