@@ -6,15 +6,23 @@ const Navbar = () => {
             <div className="navbar-items">
                 <ul className="nav-links">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="/menu">Menu</a></li>
+
+                    <li><div className="menu-dropdown-trigger">Menu
+                            <div class="menu-dropdown">
+                                <a href="#">Takeout</a>
+                                <a href="#">Dine In</a>
+                            </div>
+                        </div>
+                    </li>
+
                     <li><a href="tel:+351289153829">Call Us</a></li>
                     <li><a href="#location">Location</a></li>
                     <li><div className="language-dropdown-trigger">en &#9660;
-                        <div class="language-dropdown">
-                            <a href="#">EN</a>
-                            <a href="#">PT</a>
+                            <div class="language-dropdown">
+                                <a href="#">EN</a>
+                                <a href="#">PT</a>
+                            </div>
                         </div>
-                    </div>
                     </li>
                 </ul>
             </div>
