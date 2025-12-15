@@ -1,12 +1,6 @@
-:root {
-    --umi-white: #fbfbfb;
-    --umi-orange: #fa8552;
-    --umi-gray: #262626;
-}
-
 .about-container {
-    position: relative;
-    top: -8.7rem;
+    margin-top: -8.7rem;
+    margin-bottom: -2.01rem;
     background-image: url(../res/about-bg.png);
     color: var(--umi-white);
 }

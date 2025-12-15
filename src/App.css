@@ -2,6 +2,8 @@
     --umi-white: #fbfbfb;
     --umi-orange: #fa8552;
     --umi-gray: #262626;
+
+    --nav-size: 1.5rem;
 }
 
 h1 {
@@ -31,6 +33,14 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.home-logo {
+  width: 80%;
+}
+
+.ayce-logo {
+  width: 60%;
 }
 
 .home-content a {

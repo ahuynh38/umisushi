@@ -1,11 +1,3 @@
-:root {
-    --umi-white: #fbfbfb;
-    --umi-orange: #fa8552;
-    --umi-gray: #262626;
-
-    --nav-size: 1.5rem;
-}
-
 .navbar {
     background-color: transparent;
     display: flex;

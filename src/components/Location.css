@@ -1,0 +1,38 @@
+.location-container {
+    color: var(--umi-white);
+    margin-top: 0;
+    background-image: url('../res/loc-bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.location-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.location-info {
+    margin-bottom: 1rem;
+}
+
+.location-info a {
+    text-decoration: none;
+    color: var(--umi-white);
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.location-info a:hover {
+    text-decoration: underline;
+    color: var(--umi-orange);
+}
+
+.location-info p {
+    margin: 0.2rem 0;
+    font-size: 1.2rem;
+}

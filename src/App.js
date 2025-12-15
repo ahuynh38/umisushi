@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Location from './components/Location';
 
 // Import resources
 import home_logo from './res/only_writing.png';
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Location />
     </div>
   );
 }
