@@ -33,9 +33,9 @@ const LocationCard = ({ city, address, coords }) => {
 const OlhaoInfo = () => {
     return (
         <div className="info-container">
-            <a href="https://maps.app.goo.gl/1JEBDZxNjmRSnQVH6" target="_blank">R. Vasco da Gama, 8700-522 Olhão, Portugal</a>
-            <p>Hours: 11:30 - 15:00, 19:00 - 23:00</p>
             <a href="tel:+351289153829">+351 289 153 829</a>
+            <p>Hours: 11:30 - 15:00, 19:00 - 23:00</p>
+            <a href="https://maps.app.goo.gl/1JEBDZxNjmRSnQVH6" target="_blank">R. Vasco da Gama, 8700-522 Olhão, Portugal</a>
         </div>
     )
 }
@@ -43,9 +43,9 @@ const OlhaoInfo = () => {
 const TaviraInfo = () => {
     return (
         <div className="info-container">
-            <a href="https://maps.app.goo.gl/ZSRC9vmcMSCujyRu5" target="_blank">R. Gonçalo Velho 16, 8800-349 Tavira, Portugal</a>
-            <p>Hours: 11:30 - 15:00, 18:30 - 23:00</p>
             <a href="tel:+351281327685">+351 281 327 685</a>
+            <p>Hours: 11:30 - 15:00, 18:30 - 23:00</p>
+            <a href="https://maps.app.goo.gl/ZSRC9vmcMSCujyRu5" target="_blank">R. Gonçalo Velho 16, 8800-349 Tavira, Portugal</a>
         </div>
     )
 }
