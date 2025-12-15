@@ -23,7 +23,7 @@ const Home = () => (
     <div className="home-content">
       <img src={home_logo} className="home-logo" alt="logo" />
       <img src={ayce} className="ayce-logo" alt="all you can eat" />
-      <a class='reserve-button' href="/reservation" target="_blank" role="button">Reserve a Table</a>
+      <a class='call-button' href="tel:+351289153829" target="_blank" role="button">Call Us</a>
     </div>
   </div>
 )
