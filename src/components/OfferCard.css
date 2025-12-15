@@ -1,0 +1,28 @@
+.offer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.offer-card-img-container {
+    width: 33rem;
+    height: 22rem;
+    overflow: hidden;
+}
+
+.offer-card-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;;
+}
+
+.offer-card-desc-container {
+    width: 33rem;
+}
+
+.offer-card-description {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: var(--umi-white);
+}
