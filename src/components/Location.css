@@ -12,7 +12,7 @@
 .location-list {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: top;
     justify-content: space-evenly;
     width: 100%;
     gap: 4rem;
