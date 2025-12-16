@@ -1,11 +1,14 @@
 import './Location.css';
 import LocationCard from './LocationCard';
+import { useTranslation } from 'react-i18next';
 
 const Location = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="location-container" id="location">
             <div className="location-content">
-                <h1>Our Locations</h1>
+                <h1>{t('locations')}</h1>
                 <div className="location-list">
                     <LocationCard 
                         className="location-card"

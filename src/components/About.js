@@ -1,28 +1,31 @@
 import './About.css';
 import OfferCard from './OfferCard';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="about-container" id="about">
             <div className="about-content">
-                <h1>What We Offer</h1>
+                <h1>{t('about-us')}</h1>
                 <div className="offer-cards-grid">
                     <OfferCard 
                         className="offer-card"
                         title="Waterfront Seating"
-                        description="Serene waterfront seating, calm views, and the perfect backdrop for enjoying sushi in the open air. [Tavira Location]"
+                        description={t('waterfront-desc')}
                         image={require('../res/tavira-waterfront.jpg')}
                     />
                     <OfferCard
                         className="offer-card" 
-                        title="Waterfront Seating"
-                        description="Handcrafted, beautifully prepared, all-you-can-eat sushi, sashimi, and nigiri, made-to-order and a la carte."
+                        title="Handcrafted Sushi"
+                        description={t('sushi-desc')}
                         image={require('../res/sushi.jpg')}
                     />
                     <OfferCard 
                         className="offer-card"
-                        title="Waterfront Seating"
-                        description=" Warm wood accents, lush greenery, and elegant seating for a chic, contemporary feel. [Olhão Location]"
+                        title="Modern Interior"
+                        description={t('wood-desc')}
                         image={require('../res/olhao-interior.jpg')}
                     />
                 </div>
