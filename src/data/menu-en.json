@@ -1,0 +1,224 @@
+[
+  {
+    "section": "ALL YOU CAN EAT",
+    "items": [
+      { "name": "Lunch", "price": "13,9€" },
+      { "name": "Dinner Mon-Thur", "price": "16,9€" },
+      { "name": "Friday, Saturday, Sunday, Holidays and Eve", "price": "17,9€" },
+      { "name": "Children up to 10 years", "description": "Pay 8€ for lunch and 11€ for dinner" },
+      { "name": "Our menu may contain allergens", "description": "For more information, contact a collaborator. Thank you very much." },
+      { "name": "Allergens", "description": "Wheat. Fish. Celery. Mollusks. Eggs. Lupines. Milk. Crustaceans. Mustard. Peanut. Sesame. Sulfur Dioxide. Soy." },
+      { "name": "VAT", "description": "All prices shown include VAT at the legal rate in force." }
+    ]
+  },
+  {
+    "section": "APPETIZERS",
+    "items": [
+      { "name": "Miso Soup", "description": "Soy, chives, tofu and hondashi" },
+      { "name": "Vegetable Spring Rolls", "description": "2 pcs. of crispy spring rolls stuffed with vegetables" },
+      { "name": "Prawns Spring Rolls", "description": "2 pcs. of crispy spring rolls stuffed with prawns" },
+      { "name": "Prawns Skewers", "description": "Grilled prawns with green chives" },
+      { "name": "Chicken Skewers", "description": "Fried chicken" },
+      { "name": "Gyosa", "description": "4 pcs. grilled ravioli with pork and vegetables" },
+      { "name": "Crispy Breaded Shrimp", "description": "4 pcs. crispy breaded shrimp" }
+    ]
+  },
+  {
+    "section": "FREESTYLE",
+    "items": [
+      { "name": "Sushi Mix", "description": "Sushi selected by Chef according to the number of people" }
+    ]
+  },
+  {
+    "section": "SASHIMI",
+    "items": [
+      { "name": "Salmon - 5 Slices" },
+      { "name": "Tuna - 5 Slices" },
+      { "name": "Butterfish - 5 Slices" },
+      { "name": "Sea Bass - 5 Slices" },
+      { "name": "Sashimi Mix - 6 Salmon, 2 Tuna, 2 Butterfish, 2 Sea Bass" }
+    ]
+  },
+  {
+    "section": "NIGIRI",
+    "items": [
+      { "name": "Salmon - 2 pcs" },
+      { "name": "Tuna - 2 pcs" },
+      { "name": "Butterfish - 2 pcs" },
+      { "name": "Sea Bass - 2 pcs" },
+      { "name": "Shrimp - 2 pcs" },
+      { "name": "Seared Salmon - 2 pcs" }
+    ]
+  },
+  {
+    "section": "HOSSOMAKI",
+    "items": [
+      { "name": "Salmon - 4 pcs" },
+      { "name": "Tuna - 4 pcs" },
+      { "name": "Mango - 4 pcs" },
+      { "name": "Cucumber - 4 pcs" },
+      { "name": "Shrimp - 4 pcs" }
+    ]
+  },
+  {
+    "section": "URAMAKI",
+    "items": [
+      { "name": "Classic Salmon - 4 pcs", "description": "w/ salmon, avocado, sesame" },
+      { "name": "California Roll - 4 pcs", "description": "w/ salmon, mango, cucumber, fish roe" },
+      { "name": "Classic Tuna - 4 pcs", "description": "w/ tuna, avocado, and chives" },
+      { "name": "Shrimp Roll - 4 pcs", "description": "w/ shrimp, cucumber, mango, fish roe, Philadelphia" },
+      { "name": "Grilled Salmon - 4 pcs", "description": "w/ grilled salmon, avocado, sesame and Philadelphia" },
+      { "name": "Breaded Shrimp - 4 pcs", "description": "w/ shrimp, Philadelphia, breadcrumbs and sesame" }
+    ]
+  },
+  {
+    "section": "HOT ROLL",
+    "items": [
+      { "name": "Hot Philadelphia - 4 pcs", "description": "w/ Philadelphia, grilled salmon, and leek w/ teriyaki" },
+      { "name": "Eggroll Tempura - 4 pcs", "description": "w/ Philadelphia, salmon wrapped in egg, and sweet chilli" },
+      { "name": "Breaded Sushi - 4 pcs", "description": "w/ Philadelphia, salmon, avocado, and sweet chilli" },
+      { "name": "Hot Roll - 4 pcs", "description": "w/ salmon, mayonnaise, and sesame w/ teriyaki" }
+    ]
+  },
+  {
+    "section": "SPECIALTIES",
+    "items": [
+      { "name": "Avocado Gunkan - 4 pcs", "description": "4 pcs. of salmon, avocado, and sesame" },
+      { "name": "Strawberry Gunkan - 4 pcs", "description": "4 pcs. of salmon wrapped with strawberry" },
+      { "name": "Mango Gunkan - 4 pcs", "description": "4 pcs. of salmon wrapped with mango" },
+      { "name": "Burnt Gunkan - 4 pcs", "description": "4 pcs. of salmon wrapped with chopped salmon" },
+      { "name": "Egg Roll - 4 pcs", "description": "4 pcs. w/ salmon, avocado, and Philadelphia wrapped in egg" },
+      { "name": "Classic Burnt Salmon - 4 pcs", "description": "4 pcs. w/ layers of braised salmon" },
+      { "name": "Breaded Shrimp and Salmon - 4 pcs", "description": "4 pcs. w/ salmon, breaded shrimp, and fish roe" },
+      { "name": "Salmon and Strawberry - 4 pcs", "description": "4 pcs. w/ salmon, strawberry, and Philadelphia" },
+      { "name": "Peanuts and Cheese - 4 pcs", "description": "4 pcs. w/ salmon, peanuts, and Philadelphia" },
+      { "name": "Spicy Seaweed - 4 pcs", "description": "4 pcs. w/ salmon and seaweed with sweet chilli" },
+      { "name": "Cucumber Gunkan - 4 pcs", "description": "4 pcs. of cucumber wrapped with salmon and cheese" }
+    ]
+  },
+  {
+    "section": "TEMAKI",
+    "items": [
+      { "name": "Salmon - Philadelphia and Sesame" },
+      { "name": "Tuna - Philadelphia and Sesame" },
+      { "name": "Breaded Shrimp - Philadelphia and Sesame" },
+      { "name": "Vegetarian - Mango, Cucumber, Avocado, Philadelphia, and Sesame" },
+      { "name": "Shrimp - Shrimp, Mango, Cucumber, Avocado, Philadelphia, and Sesame" }
+    ],
+    "note": "Temakis in egg leaf adds € 0,50"
+  },
+  {
+    "section": "HOT DISHES",
+    "items": [
+      { "name": "Prawn Noodles" },
+      { "name": "Beef Noodles" },
+      { "name": "Chicken Noodles" },
+      { "name": "Vegetarian Noodles" },
+      { "name": "Grilled Salmon" },
+      { "name": "Prawn Tempura" },
+      { "name": "Grilled Beef" },
+      { "name": "Grilled Prawns" },
+      { "name": "Stir-fried Cuttlefish" },
+      { "name": "Stir-fried Mushroom" },
+      { "name": "Chicken in breadcrumbs" },
+      { "name": "Stir-fried Rice" },
+      { "name": "Prawns w/ sweet chilli" }
+    ]
+  },
+  {
+    "section": "DESSERTS",
+    "items": [
+      { "name": "Fried Ice Cream - Strawberry, chocolate, or caramel topping", "price": "4€" },
+      { "name": "Fried Banana - Strawberry, chocolate or caramel topping", "price": "4€" },
+      { "name": "Ice Cream Grilled Plate - Strawberry, chocolate or caramel topping", "price": "4€" },
+      { "name": "Ice Cream Ball", "price": "2,8€" },
+      { "name": "Home Made Dessert - Subject to availability", "price": "3,5€" },
+      { "name": "Seasonal Fruit - Subject to availability", "price": "3€" }
+    ]
+  },
+  {
+    "section": "DRINKS",
+    "items": [
+      { "name": "Soft Drinks", "price": "2€" },
+      { "name": "Super Bock Beer", "price": "2€" },
+      { "name": "Super Bock Stout non-alcohol", "price": "2,2€" },
+      { "name": "Natural Orange Juice", "price": "3,5€" },
+      { "name": "Water 33 cl", "price": "1,5€" },
+      { "name": "Compal Juice", "price": "2€" },
+      { "name": "Sparkling water", "price": "1,75€" },
+      { "name": "Somersby Cider", "price": "2,5€" },
+      { "name": "Chinese Beer", "price": "2,8€" },
+      { "name": "Japanese Beer", "price": "3,2€" },
+      { "name": "Coffee", "price": "0,8€" },
+      { "name": "Light coffee/lemon", "price": "0,8€" },
+      { "name": "Decaffeinated/Pingo", "price": "1,2€" },
+      { "name": "Tea per person - Green or Jasmine", "price": "1,2€" }
+    ]
+  },
+  {
+    "section": "WHITE WINE",
+    "items": [
+      { "name": "Castello D'Alba - Douro", "price": "11€" },
+      { "name": "Planalto - Douro", "price": "11€" },
+      { "name": "Altano - Douro", "price": "12€" },
+      { "name": "Alvarinho Deu La Deu - Verde", "price": "15€" },
+      { "name": "Diálogo - Douro", "price": "19€" },
+      { "name": "Vallado - Douro", "price": "20€" },
+      { "name": "Half Bottle Castello D'Albo - Douro", "price": "7€" },
+      { "name": "Half Bottle Quinta da Avelada - Douro", "price": "7€" }
+    ]
+  },
+  {
+    "section": "RED WINE",
+    "items": [
+      { "name": "Castello D'Alba - Douro", "price": "11€" },
+      { "name": "Chaminé - Alentejo", "price": "13€" },
+      { "name": "Kopke - Douro", "price": "14€" },
+      { "name": "Vallado - Douro", "price": "21€" },
+      { "name": "Quinta do Castro - Douro", "price": "26€" },
+      { "name": "Half Bottle Chaminé - Alentejo", "price": "7€" },
+      { "name": "Half Bottle Quinta da Avelada - Douro", "price": "7€" }
+    ]
+  },
+  {
+    "section": "ROSÉ",
+    "items": [
+      { "name": "Mateus - Douro", "price": "10€" },
+      { "name": "EA - Alentejo", "price": "12€" },
+      { "name": "Half Bottle Mateus - Douro", "price": "6€" }
+    ]
+  },
+  {
+    "section": "SPARKLING WINE",
+    "items": [
+      { "name": "Paço do Duque - Bairrada", "price": "9€" },
+      { "name": "São Domingos - Bairrada", "price": "13€" },
+      { "name": "Fita Azul Doce - Douro", "price": "16€" },
+      { "name": "Soalheiro Bruto - Verde", "price": "25€" }
+    ]
+  },
+  {
+    "section": "SANGRIA",
+    "items": [
+      { "name": "White", "price": "10€" },
+      { "name": "Red", "price": "10€" },
+      { "name": "Sparkling Wine", "price": "11€" },
+      { "name": "Saké", "price": "13€" },
+      { "name": "A glass of white/red", "price": "4€" },
+      { "name": "A glass of sparkling wine", "price": "4,3€" },
+      { "name": "A glass of sake", "price": "4,3€" }
+    ]
+  },
+  {
+    "section": "GIN",
+    "items": [
+      { "name": "Gordon's", "price": "5,5€" },
+      { "name": "Tanqueray", "price": "6€" },
+      { "name": "Bulldog", "price": "8€" },
+      { "name": "Big Boss", "price": "8€" },
+      { "name": "Hendricks", "price": "9€" },
+      { "name": "G'Vine", "price": "10€" },
+      { "name": "Monkey 47", "price": "11€" }
+    ]
+  }
+]

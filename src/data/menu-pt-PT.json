@@ -1,0 +1,224 @@
+[
+  {
+    "section": "RODÍZIO",
+    "items": [
+      { "name": "Almoço", "price": "13,9€" },
+      { "name": "Jantar Segunda a quinta-feira", "price": "16,9€" },
+      { "name": "Sexta, Sábado, Domingo, Feriados e vésperas", "price": "17,9€" },
+      { "name": "Crianças até 10 anos", "description": "Pagam 8€ ao almoço e 11€ ao jantar" },
+      { "name": "O nosso menu pode conter alergénios", "description": "Para mais informações contacte um colaborador. Muito obrigado." },
+      { "name": "Alergénios", "description": "Trigo. Peixe. Aipo. Moluscos. Ovos. Tremoços. Leite. Crustáceos. Mostarda. Amendoim. Sésamo. Dióxido de Enxofre. Soja." },
+      { "name": "IVA", "description": "Todos os preços apresentados incluem IVA à taxa legal em vigor." }
+    ]
+  },
+  {
+    "section": "ENTRADAS",
+    "items": [
+      { "name": "Sopa Miso", "description": "Soja, cebolinha, tofu e hondashi" },
+      { "name": "Crepes de Legumes", "description": "2 unidades de crepes crocantes recheados com legumes" },
+      { "name": "Crepes de Gambas", "description": "2 unidades de crepes crocantes recheados com gambas" },
+      { "name": "Espetadas de Gambas", "description": "Gambas grelhadas com cebolinho verde" },
+      { "name": "Espetadas de Frango", "description": "Frango Frito" },
+      { "name": "Gyosa", "description": "4 unidades de ravioli grelhado com carne de porco e legumes" },
+      { "name": "Camarão Panado", "description": "4 unidades camarão frito com pão ralado" }
+    ]
+  },
+  {
+    "section": "FREESTYLE",
+    "items": [
+      { "name": "Mix de sushi", "description": "Sushi selecionado pelo sushiman consoante o número de pessoas" }
+    ]
+  },
+  {
+    "section": "SASHIMI",
+    "items": [
+      { "name": "Salmão - 5 Fatias" },
+      { "name": "Atum - 5 Fatias" },
+      { "name": "Peixe Manteiga - 5 Fatias" },
+      { "name": "Robalo - 5 Fatias" },
+      { "name": "Sashimi Mix - 6 Fatias de Salmão, 2 Atum, 2 Peixe Manteiga e 2 Robalo" }
+    ]
+  },
+  {
+    "section": "NIGUIRI",
+    "items": [
+      { "name": "Salmão - 2 unidades" },
+      { "name": "Atum - 2 unidades" },
+      { "name": "Peixe Manteiga - 2 unidades" },
+      { "name": "Robalo - 2 unidades" },
+      { "name": "Camarão - 2 unidades" },
+      { "name": "Salmão Flamejado - 2 unidades" }
+    ]
+  },
+  {
+    "section": "HOSSOMAKI",
+    "items": [
+      { "name": "Salmão - 4 unidades" },
+      { "name": "Atum - 4 unidades" },
+      { "name": "Manga - 4 unidades" },
+      { "name": "Pepino - 4 unidades" },
+      { "name": "Camarão - 4 unidades" }
+    ]
+  },
+  {
+    "section": "URAMAKI",
+    "items": [
+      { "name": "Classic Salmon - 4 un.", "description": "Salmão, Abacate e Sésamo" },
+      { "name": "California Roll - 4 un.", "description": "Salmão, Manga, Pepino e Ovas" },
+      { "name": "Classic Atum - 4 un.", "description": "Atum, Abacate e Cebolinho" },
+      { "name": "Shrimp Roll - 4 un.", "description": "Camarão, Pepino, Manga, Ovas e Philadelphia" },
+      { "name": "Salmão Grelhado - 4 un.", "description": "Salmão Grelhado, Abacate, Sésamo e Philadelphia" },
+      { "name": "Breaded Shrimp - 4 un.", "description": "Camarão, Philadelphia, Panado e Sésamo" }
+    ]
+  },
+  {
+    "section": "HOT ROLL",
+    "items": [
+      { "name": "Hot Philadelphia - 4 un.", "description": "c/ Philadelphia, Salmão Grelhado e Alto Francês c/ Teriyaki" },
+      { "name": "Tempura de Eggroll - 4 un.", "description": "c/ Philadelphia, Salmão Enrolado em ovo e sweet-chilli" },
+      { "name": "Sushi Panado - 4 un.", "description": "c/ Philadelphia, Salmão, Abacate, pão ralado e sweet-chilli" },
+      { "name": "Hot Roll - 4 un.", "description": "c/ Salmão, Maionese e Sesame / Teriyaki" }
+    ]
+  },
+  {
+    "section": "ESPECIALIDADES",
+    "items": [
+      { "name": "Avocado Gunkan - 4 un.", "description": "Salmão Enrolado c/ camada de Abacate e Sésamo" },
+      { "name": "Gunkan Morango - 4 un.", "description": "Salmão Enrolado c/ camada de Morango" },
+      { "name": "Gunkan Manga - 4 un.", "description": "Salmão Enrolado c/ camada de Manga" },
+      { "name": "Burnt Gunkan - 4 un.", "description": "Salmão Braseado enrolado c/ camada de Salmão Picado" },
+      { "name": "Egg Roll - 4 un.", "description": "c/ Salmão, abacate e Philadelphia enrolade em ovo" },
+      { "name": "Classic Burnt Salmon - 4 un.", "description": "c/ camada de Salmão braseado" },
+      { "name": "Breaded Shrimp and Salmon - 4 un.", "description": "c/ Salmão, camarão, panado e ovas" },
+      { "name": "Salmon and Strawberry - 4 un.", "description": "c/ Salmão, morango e Philadelphia" },
+      { "name": "Peanuts and Cheese - 4 un.", "description": "c/ Salmão, amendoim e Philadelphia" },
+      { "name": "Spicy Seaweed - 4 un.", "description": "c/ Salmão e algas do mar com sweet-chilli" },
+      { "name": "Gunkan Pepino - 4 un.", "description": "de pepino enrolado c/ Salmão e queijo" }
+    ]
+  },
+  {
+    "section": "TEMAKI",
+    "items": [
+      { "name": "Salmão - Philadelphia e Sésamo" },
+      { "name": "Atum - Philadelphia e Sésamo" },
+      { "name": "Camarão Panado - Philadelphia e Sésamo" },
+      { "name": "Vegetariano - Manga, Pepino, Abacate, Philadelphia e Sésamo" },
+      { "name": "Camarão - Camarão, Manga, Pepino, Philadelphia e Sésamo" }
+    ],
+    "note": "Temakis em folha de ovo acrescem 0,50 €"
+  },
+  {
+    "section": "PRATOS QUENTES",
+    "items": [
+      { "name": "Noodles de Gambas" },
+      { "name": "Noodles de Carne de Vaca" },
+      { "name": "Noodles de Frango" },
+      { "name": "Noodles Vegetariano" },
+      { "name": "Salmão Grelhado" },
+      { "name": "Tempura de Gambas" },
+      { "name": "Carne de Vaca Grelhada" },
+      { "name": "Gambas Grelhadas" },
+      { "name": "Choco Salteado" },
+      { "name": "Cogumelos Salteados" },
+      { "name": "Frango Panado" },
+      { "name": "Arroz Salteado" },
+      { "name": "Gambas c/ sweet chilli" }
+    ]
+  },
+  {
+    "section": "SOBREMESAS",
+    "items": [
+      { "name": "Gelado Frito - Topping Morango, chocolate ou caramelo", "price": "4€" },
+      { "name": "Banana Frita - Topping Morango, chocolate ou caramelo", "price": "4€" },
+      { "name": "Gelado na Chapa - Topping Morango, chocolate ou caramelo", "price": "4€" },
+      { "name": "Bola de Gelado", "price": "2,8€" },
+      { "name": "Sobremesa Caseira - Mediante Disponibilidade", "price": "3,5€" },
+      { "name": "Fruta da Época - Mediante Disponibilidade", "price": "3€" }
+    ]
+  },
+  {
+    "section": "BEBIDAS",
+    "items": [
+      { "name": "Refrigerantes", "price": "2€" },
+      { "name": "Cerveja Super Bock", "price": "2€" },
+      { "name": "Cerveja Super Bock Stout sem álcool", "price": "2,2€" },
+      { "name": "Sumo de Laranja Natural", "price": "3,5€" },
+      { "name": "Água 33 cl", "price": "1,5€" },
+      { "name": "Compal", "price": "2€" },
+      { "name": "Água com gás", "price": "1,75€" },
+      { "name": "Somersby", "price": "2,5€" },
+      { "name": "Cerveja Chinesa", "price": "2,8€" },
+      { "name": "Cerveja Japonesa", "price": "3,2€" },
+      { "name": "Café", "price": "0,8€" },
+      { "name": "Carioca de Café/Limão", "price": "0,8€" },
+      { "name": "Descafeinado/Pingo", "price": "1,2€" },
+      { "name": "Chá p/pessoa - Verde ou Jasmin", "price": "1,2€" }
+    ]
+  },
+  {
+    "section": "VINHO BRANCO",
+    "items": [
+      { "name": "Castello D'Alba - Douro", "price": "11€" },
+      { "name": "Planalto - Douro", "price": "11€" },
+      { "name": "Altano - Douro", "price": "12€" },
+      { "name": "Alvarinho Deu La Deu - Verde", "price": "15€" },
+      { "name": "Diálogo - Douro", "price": "19€" },
+      { "name": "Vallado - Douro", "price": "20€" },
+      { "name": "Meia Garrafa Castello D'Albo - Douro", "price": "7€" },
+      { "name": "Meia Garrafa Quinta da Avelada - Douro", "price": "7€" }
+    ]
+  },
+  {
+    "section": "VINHO TINTO",
+    "items": [
+      { "name": "Castello D'Alba - Douro", "price": "11€" },
+      { "name": "Chaminé - Alentejo", "price": "13€" },
+      { "name": "Kopke - Douro", "price": "14€" },
+      { "name": "Vallado - Douro", "price": "21€" },
+      { "name": "Quinta do Castro - Douro", "price": "26€" },
+      { "name": "Meia Garrafa Chaminé - Alentejo", "price": "7€" },
+      { "name": "Meia Garrafa Quinta da Avelada - Douro", "price": "7€" }
+    ]
+  },
+  {
+    "section": "ROSÉ",
+    "items": [
+      { "name": "Mateus - Douro", "price": "10€" },
+      { "name": "EA - Alentejo", "price": "12€" },
+      { "name": "Meia Garrafa Mateus - Douro", "price": "6€" }
+    ]
+  },
+  {
+    "section": "ESPUMANTE",
+    "items": [
+      { "name": "Paço do Duque - Bairrada", "price": "9€" },
+      { "name": "São Domingos - Bairrada", "price": "13€" },
+      { "name": "Fita Azul Doce - Douro", "price": "16€" },
+      { "name": "Soalheiro Bruto - Verde", "price": "25€" }
+    ]
+  },
+  {
+    "section": "SANGRIA",
+    "items": [
+      { "name": "Branco", "price": "10€" },
+      { "name": "Tinto", "price": "10€" },
+      { "name": "Espumante", "price": "11€" },
+      { "name": "Saké", "price": "13€" },
+      { "name": "Copo Branco/Tinto", "price": "4€" },
+      { "name": "Copo Espumante", "price": "4,3€" },
+      { "name": "Copo Saké", "price": "4,3€" }
+    ]
+  },
+  {
+    "section": "GIN",
+    "items": [
+      { "name": "Gordon's", "price": "5,5€" },
+      { "name": "Tanqueray", "price": "6€" },
+      { "name": "Bulldog", "price": "8€" },
+      { "name": "Big Boss", "price": "8€" },
+      { "name": "Hendricks", "price": "9€" },
+      { "name": "G'Vine", "price": "10€" },
+      { "name": "Monkey 47", "price": "11€" }
+    ]
+  }
+]
