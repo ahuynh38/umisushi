@@ -7,7 +7,6 @@ const Navbar = () => {
             <div className="navbar-items">
                 <ul className="nav-links">
                     <li><a href="/">Home</a></li>
-
                     <li><div className="menu-dropdown-trigger">Menu
                             <div class="menu-dropdown">
                                 <a href={TakeoutMenu} target="_blank">Takeout</a>
@@ -15,9 +14,8 @@ const Navbar = () => {
                             </div>
                         </div>
                     </li>
-
                     <li><a href="tel:+351289153829">Call Us</a></li>
-                    <li><a href="#location">Location</a></li>
+                    <li><a href="./#location">Location</a></li>
                     <li><div className="language-dropdown-trigger">en &#9660;
                             <div class="language-dropdown">
                                 <a href="#">EN</a>
