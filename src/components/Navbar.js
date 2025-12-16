@@ -22,7 +22,7 @@ const Navbar = () => {
                     </li>
                     <li><a href="tel:+351289153829">{t('call-us')}</a></li>
                     <li><a href="./#location">{t('location')}</a></li>
-                    <li><div className="language-dropdown-trigger">en &#9660;
+                    <li><div className="language-dropdown-trigger">{currentLang.toUpperCase()} &#9660;
                             <div className="language-dropdown">
                                 <button
                                     type="button"
