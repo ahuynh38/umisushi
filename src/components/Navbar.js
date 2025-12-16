@@ -8,16 +8,16 @@ const Navbar = () => {
     const { t, i18n } = useTranslation();
 
     const currentLang = i18n.language?.split('-')[0];
-    
+
     return (
         <nav className="navbar">
             <div className="navbar-items">
                 <ul className="nav-links">
                     <li><Link to="/">{t('home')}</Link></li>
-                    <li><div className="menu-dropdown-trigger">{t('menu')} &#9660;
+                    <li><div className="menu-dropdown-trigger">{t('menu')}
                             <div className="menu-dropdown">
-                                <a href={TakeoutMenu} target="_blank" rel="noreferrer">Takeout</a>
-                                <Link to="/dine-in-menu">Dine In</Link>
+                                <a href={TakeoutMenu}>{t('takeout')}</a>
+                                <Link to="/dine-in-menu">{t('dine-in')}</Link>
                             </div>
                         </div>
                     </li>

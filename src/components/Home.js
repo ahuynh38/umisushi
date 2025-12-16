@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="home-content">
                     <img src={home_logo} className="home-logo" alt="logo" />
                     <img src={ayce} className="ayce-logo" alt="all you can eat" />
-                    <a class='call-button' href="tel:+351289153829" target="_blank" role="button">{t('call-us')}</a> 
+                    <a class='call-button' href="tel:+351289153829" target="_blank" role="button">{t('contact-us')}</a> 
                 </div>
             </div>
             <About />
