@@ -1,5 +1,4 @@
 import './Navbar.css';
-import TakeoutMenu from '../res/takeout-menu.pdf'
 
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -16,7 +15,7 @@ const Navbar = () => {
                     <li><Link to="/">{t('home')}</Link></li>
                     <li><div className="menu-dropdown-trigger">{t('menu')}
                             <div className="menu-dropdown">
-                                <a href={TakeoutMenu}>{t('takeout')}</a>
+                                <a href="/takeout-menu.pdf">{t('takeout')}</a>
                                 <Link to="/dine-in-menu">{t('dine-in')}</Link>
                             </div>
                         </div>
