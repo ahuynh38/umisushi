@@ -9,7 +9,7 @@ const Navbar = () => {
                     <li><a href="/">Home</a></li>
                     <li><div className="menu-dropdown-trigger">Menu
                             <div class="menu-dropdown">
-                                <a href={TakeoutMenu} target="_blank">Takeout</a>
+                                <a href={TakeoutMenu} target="_blank" rel="noreferrer">Takeout</a>
                                 <a href="/dine-in-menu">Dine In</a>
                             </div>
                         </div>

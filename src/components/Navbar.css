@@ -72,6 +72,8 @@
     color: var(--umi-gray) !important;
     text-decoration: none;
     display: block;
+    font-size: 1.3rem !important;
+    font-weight: normal !important
 }
 
 .language-dropdown a:hover {
@@ -102,6 +104,8 @@
     display: block;
     padding-left: 0.3rem;
     padding-right: 0.3rem;
+    font-size: 1.3rem !important;
+    font-weight: normal !important
 }
 
 .menu-dropdown a:hover {
