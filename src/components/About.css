@@ -5,6 +5,10 @@
     color: var(--umi-white);
 }
 
+.about-container h1 {
+    color: var(--umi-white);
+}
+
 .about-content {
     display: flex;
     flex-direction: column;

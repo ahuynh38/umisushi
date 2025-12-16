@@ -10,6 +10,10 @@
     padding-right: 4rem;
 }
 
+.location-container h1 {
+    color: var(--umi-white);
+}
+
 .location-list {
     display: flex;
     flex-direction: row;
