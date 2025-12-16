@@ -1,16 +1,17 @@
 import './Navbar.css';
+import TakeoutMenu from '../res/takeout-menu.pdf'
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-items">
                 <ul className="nav-links">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="/">Home</a></li>
 
                     <li><div className="menu-dropdown-trigger">Menu
                             <div class="menu-dropdown">
-                                <a href="#">Takeout</a>
-                                <a href="#">Dine In</a>
+                                <a href={TakeoutMenu} target="_blank">Takeout</a>
+                                <a href="/dine-in-menu">Dine In</a>
                             </div>
                         </div>
                     </li>
