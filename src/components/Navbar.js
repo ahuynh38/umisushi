@@ -3,15 +3,18 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 
+import home_logo from '../res/only_writing.png';
+
 const Navbar = () => {
     const { t, i18n } = useTranslation();
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false); // for hamburger menu logic
 
-    const menuRef = useRef(null);
-    const hamburgerRef = useRef(null);
+    const menuRef = useRef(null); // for hamburger menu logic
+    const hamburgerRef = useRef(null); // for hamburger menu logic
 
     const currentLang = i18n.language?.split('-')[0];
 
+    // Close hamburger menu when clicking outside or on the icon (mobile)
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (
@@ -25,11 +28,11 @@ const Navbar = () => {
             }
         };
 
-        document.addEventListener('mousedown', handleClickOutside);
+        document.addEventListener('click', handleClickOutside);
         document.addEventListener('touchstart', handleClickOutside);
         
         return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
+            document.removeEventListener('click', handleClickOutside);
             document.removeEventListener('touchstart', handleClickOutside);
         };
     }, [menuOpen]);
@@ -51,17 +54,28 @@ const Navbar = () => {
                 </button>
 
                 <ul ref={menuRef} className={`nav-links ${menuOpen ? 'open' : ''}`}>
-                    <li><Link to="/">{t('home')}</Link></li>
-                    <li><div className="menu-dropdown-trigger">{t('menu')}
+                    <li className="menu-item mobile-menu-logo" id="mobile-menu-logo-item">
+                        <img src={home_logo} className="mobile-home-logo" alt="logo" />
+                    </li>
+                    <li className="menu-item"><Link to="/">{t('home')}</Link></li>
+                    <li className="menu-item menu-dropdown-trigger-container"><div className="menu-dropdown-trigger">{t('menu')}
                             <div className="menu-dropdown">
                                 <a href="/takeout-menu.pdf">{t('takeout')}</a>
                                 <Link to="/dine-in-menu">{t('dine-in')}</Link>
                             </div>
                         </div>
                     </li>
-                    <li><a href="tel:+351289153829">{t('call-us')}</a></li>
-                    <li><a href="./#location">{t('location')}</a></li>
-                    <li><div className="language-dropdown-trigger">{currentLang.toUpperCase()} &#9660;
+
+                    <li className="mobile-menu-item menu-item">
+                        <a href="/takeout-menu.pdf">{t('takeout-menu')}</a>
+                    </li>
+                    <li className="menu-item mobile-menu-item">
+                        <Link to="/dine-in-menu">{t('dine-in-menu')}</Link>
+                    </li>
+
+                    <li className="menu-item"><a href="tel:+351289153829">{t('call-us')}</a></li>
+                    <li className="menu-item"><a href="./#location">{t('location')}</a></li>
+                    <li className="menu-item"><div className="language-dropdown-trigger">{currentLang.toUpperCase()} &#9660;
                             <div className="language-dropdown">
                                 <button
                                     type="button"
