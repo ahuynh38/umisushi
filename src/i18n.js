@@ -11,7 +11,7 @@ i18next
     .use(initReactI18next)
     .init({
         fallbackLng: 'en',
-        debug: true,
+        debug: false,
         ns: ['default'],
         defaultNS: 'default',
         supportedLngs: ['en', 'pt-PT'],
