@@ -57,7 +57,17 @@ const Navbar = () => {
                     <li className="menu-item mobile-menu-logo" id="mobile-menu-logo-item">
                         <img src={home_logo} className="mobile-home-logo" alt="logo" />
                     </li>
-                    <li className="menu-item"><Link to="/">{t('home')}</Link></li>
+                    <li className="menu-item">
+                        <Link 
+                            onClick={() => {
+                                setMenuOpen(false);
+                                window.scrollTo({ top: 0, behavior: 'smooth' });
+                            }}
+                            to="/"
+                        >
+                            {t('home')}
+                        </Link>
+                    </li>
                     <li className="menu-item menu-dropdown-trigger-container"><div className="menu-dropdown-trigger">{t('menu')}
                             <div className="menu-dropdown">
                                 <a href="/takeout-menu.pdf">{t('takeout')}</a>
@@ -74,7 +84,22 @@ const Navbar = () => {
                     </li>
 
                     <li className="menu-item"><a href="tel:+351289153829">{t('call-us')}</a></li>
-                    <li className="menu-item"><a href="./#location">{t('location')}</a></li>
+                    <li className="menu-item">
+                        <Link 
+                            onClick={() => {
+                                setMenuOpen(false);
+                                requestAnimationFrame(() => {
+                                    const el = document.getElementById('location');
+                                    if (el) {
+                                        el.scrollIntoView({ behavior: 'smooth' });
+                                    }
+                                });
+                            }}
+                            to="/"
+                        >
+                            {t('location')}
+                        </Link>
+                    </li>
                     <li className="menu-item"><div className="language-dropdown-trigger">{currentLang.toUpperCase()} &#9660;
                             <div className="language-dropdown">
                                 <button
