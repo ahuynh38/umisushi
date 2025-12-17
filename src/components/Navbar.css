@@ -164,10 +164,16 @@
         transform: translateX(-50%);
         text-align: center;
     }
+    .menu-dropdown * {
+        border-top: 1px solid var(--umi-gray);
+    }
     .language-dropdown {
         position: absolute;
         border-radius: 6px;
         left: 50%;
         transform: translateX(-50%);
+    }
+    .language-dropdown button {
+        border-top: 1px solid var(--umi-gray);
     }
 }
