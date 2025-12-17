@@ -104,13 +104,19 @@ const Navbar = () => {
                             <div className="language-dropdown">
                                 <button
                                     type="button"
-                                    onClick={() => i18n.changeLanguage('en')}
+                                    onClick={() => {
+                                        i18n.changeLanguage('en');
+                                        setMenuOpen(false);
+                                    }}
                                 >
                                     EN
                                 </button>
                                 <button
                                     type="button"
-                                    onClick={() => i18n.changeLanguage('pt-PT')}
+                                    onClick={() => {
+                                        i18n.changeLanguage('pt-PT');
+                                        setMenuOpen(false);
+                                    }}
                                 >
                                     PT
                                 </button>
