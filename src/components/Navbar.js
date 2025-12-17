@@ -1,17 +1,56 @@
 import './Navbar.css';
-
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { useState, useRef, useEffect } from 'react';
 
 const Navbar = () => {
     const { t, i18n } = useTranslation();
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const menuRef = useRef(null);
+    const hamburgerRef = useRef(null);
 
     const currentLang = i18n.language?.split('-')[0];
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (
+                menuOpen &&
+                menuRef.current &&
+                !menuRef.current.contains(event.target) &&
+                hamburgerRef.current &&
+                !hamburgerRef.current.contains(event.target)
+            ) {
+                setMenuOpen(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        document.addEventListener('touchstart', handleClickOutside);
+        
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+            document.removeEventListener('touchstart', handleClickOutside);
+        };
+    }, [menuOpen]);
 
     return (
         <nav className="navbar">
             <div className="navbar-items">
-                <ul className="nav-links">
+                <button
+                    ref={hamburgerRef}
+                    className="hamburger"
+                    onClick={() => {
+                        setMenuOpen(!menuOpen);
+                    }}
+                    aria-label="Toggle menu"
+                >
+                    <span />
+                    <span />
+                    <span />
+                </button>
+
+                <ul ref={menuRef} className={`nav-links ${menuOpen ? 'open' : ''}`}>
                     <li><Link to="/">{t('home')}</Link></li>
                     <li><div className="menu-dropdown-trigger">{t('menu')}
                             <div className="menu-dropdown">

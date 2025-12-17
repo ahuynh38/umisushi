@@ -39,7 +39,7 @@ h1 {
   width: 40%;
 }
 
-.home-content a {
+.call-button {
   margin-top: 1rem;
   padding: 1rem 2rem;
   background-color: var(--umi-orange);
@@ -52,7 +52,21 @@ h1 {
   transition: 0.3s;
 }
 
-.home-content a:hover {
+.call-button:hover {
   background-color: var(--umi-white);
   text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .home-logo {
+      width: 70%;
+    }
+
+    .ayce-logo {
+      width: 60%;
+    }
+
+    .call-button {
+      font-size: 1rem;
+    }
 }
