@@ -19,6 +19,7 @@ h1 {
   color: var(--umi-orange);
   border-bottom: 2px solid #f2d9d9;
   padding-bottom: 5px;
+  width: 97%;
   margin-bottom: 15px;
 }
 
@@ -51,4 +52,10 @@ h1 {
   font-style: italic;
   color: var(--umi-orange);
   margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+    .h1 {
+      font-size: 1rem !important;
+    }
 }
