@@ -3,6 +3,7 @@
   background-color: var(--umi-gray);
   color: var(--umi-white);
   padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 h1 {
@@ -19,7 +20,6 @@ h1 {
   color: var(--umi-orange);
   border-bottom: 2px solid #f2d9d9;
   padding-bottom: 5px;
-  width: 97%;
   margin-bottom: 15px;
 }
 
