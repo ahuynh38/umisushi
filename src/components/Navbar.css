@@ -229,7 +229,7 @@
         inset: 0;
 
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         gap: 0.2rem;
 
         padding: 1rem;
