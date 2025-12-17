@@ -276,10 +276,12 @@
 
     #navbar-contact-us-container {
         margin-bottom: 0;
+        padding-top: 0;
     }
 
     #navbar-location-container {
         margin-top: 0;
+        padding-bottom: 0;
     }
 
     .menu-dropdown * {
