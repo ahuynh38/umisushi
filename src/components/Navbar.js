@@ -42,7 +42,7 @@ const Navbar = () => {
             <div className="navbar-items">
                 <button
                     ref={hamburgerRef}
-                    className="hamburger"
+                    className={`hamburger ${menuOpen ? 'open' : ''}`}
                     onClick={() => {
                         setMenuOpen(!menuOpen);
                     }}
@@ -54,9 +54,6 @@ const Navbar = () => {
                 </button>
 
                 <ul ref={menuRef} className={`nav-links ${menuOpen ? 'open' : ''}`}>
-                    <li className="menu-item mobile-menu-logo" id="mobile-menu-logo-item">
-                        <img src={home_logo} className="mobile-home-logo" alt="logo" />
-                    </li>
                     <li className="menu-item">
                         <Link 
                             onClick={() => {
@@ -75,16 +72,18 @@ const Navbar = () => {
                             </div>
                         </div>
                     </li>
-
-                    <li className="mobile-menu-item menu-item">
-                        <a href="/takeout-menu.pdf">{t('takeout-menu')}</a>
+                    
+                    {/* MOBILE ONLY */}
+                    <li className="mobile-menu-item menu-item" id="mobile-takeout-container">
+                        <a id="mobile-takeout" href="/takeout-menu.pdf">{t('takeout-menu')}</a>
                     </li>
-                    <li className="menu-item mobile-menu-item">
-                        <Link to="/dine-in-menu">{t('dine-in-menu')}</Link>
+                    <li className="mobile-menu-item menu-item" id="mobile-dine-in-container">
+                        <Link id="mobile-dine-in" to="/dine-in-menu">{t('dine-in-menu')}</Link>
                     </li>
+                    {/* END MOBILE ONLY */}
 
-                    <li className="menu-item"><a href="tel:+351289153829">{t('call-us')}</a></li>
-                    <li className="menu-item">
+                    <li className="menu-item" id="navbar-contact-us-container"><a href="tel:+351289153829">{t('call-us')}</a></li>
+                    <li className="menu-item" id="navbar-location-container">
                         <Link 
                             onClick={() => {
                                 setMenuOpen(false);
@@ -100,7 +99,8 @@ const Navbar = () => {
                             {t('location')}
                         </Link>
                     </li>
-                    <li className="menu-item"><div className="language-dropdown-trigger">{currentLang.toUpperCase()} &#9660;
+                    <li className="menu-item">
+                        <div className="language-dropdown-trigger">{currentLang.toUpperCase()} &#9660;
                             <div className="language-dropdown">
                                 <button
                                     type="button"
