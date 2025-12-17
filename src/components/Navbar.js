@@ -54,7 +54,7 @@ const Navbar = () => {
                 </button>
 
                 <ul ref={menuRef} className={`nav-links ${menuOpen ? 'open' : ''}`}>
-                    <li className="menu-item">
+                    <li className="menu-item" id="navbar-home">
                         <Link 
                             onClick={() => {
                                 setMenuOpen(false);
